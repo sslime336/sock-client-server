@@ -1,0 +1,10 @@
+[package]
+name = "tcp-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "*"
+tcp-config = { path = "../tcp-config" }
+tracing-subscriber = "*"
+tracing = "*"

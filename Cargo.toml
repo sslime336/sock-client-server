@@ -1,0 +1,3 @@
+[workspace]
+members = ["tcp-client", "tcp-server", "tcp-config"]
+resolver = "2"

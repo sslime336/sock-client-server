@@ -1,0 +1,12 @@
+[package]
+name = "tcp-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+once_cell = "*"
+tcp-config = { path = "../tcp-config" }
+rand = "0.8.5"
+tracing-subscriber = "*"
+tracing = "*"
